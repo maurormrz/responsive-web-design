@@ -17,6 +17,7 @@ header {
     padding: 20px;
     text-align: center;
     font-weight: Bold;
+    border-radius: 3px;
 }
 
 header h1 {
@@ -63,7 +64,7 @@ p {
     margin-bottom: 40px;
     background-color: #FFFFFF;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -83,7 +84,7 @@ pre {
     background-color: #F5F5F5;
     padding: 10px;
     border: 1px solid #CCCCCC;
-    border-radius: 5px;
+    border-radius: 3px;
     overflow: auto;
 }
 
