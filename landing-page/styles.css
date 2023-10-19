@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    padding: 1% 20% 1% 20%;
+    
+  }
+  
+  .div-left {
+    padding-right: 30px;
+  }
+  
+  .div-right {
+    
+  }
+  
+  .div-right h3 {
+    font-family: Tahoma;
+    font-size: 20px;
+    margin-bottom: -10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .div-right p {
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgb(45, 45, 45);
+  }
+  
+  #logo-1 {
+    height: 100px;
+    widht: 100px;
+  }
