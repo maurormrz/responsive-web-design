@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Encuesta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Formulario de Encuesta para la Universidad</h1>
+    <p id="description">Por favor, completa la siguiente encuesta si deseas registrarte en la Universidad</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Nombre:</label>
+        <input type="text" id="name" name="name" required placeholder="Escribe tu nombre">
+        
+        <label for="email" id="email-label">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required placeholder="Escribe tu correo electrónico">
+        
+        <label for="number" id="number-label">Edad:</label>
+        <input type="number" id="number" name="number" min="16" max="120" required placeholder="Ingresa tu edad">
+        
+        <label for="dropdown" id="dropdown-label">¿En qué facultad deseas estudiar?</label>
+        <select id="dropdown" name="dropdown" required>
+            <option value="">Selecciona una opción</option>
+            <option value="opcion1">Facultad de Medicina</option>
+            <option value="opcion2">Facultad de Derecho</option>
+            <option value="opcion3">Facultad de Ingeniería</option>
+            <option value="opcion4">Facultad de Ciencias</option>
+            <option value="opcion5">Facultad de Arquitectura</option>
+            <option value="opcion6">Facultad de Economía</option>
+            <option value="opcion7">Facultad de Humanidades</option>
+            <option value="opcion8">Facultad de Agronomía</option>
+            <option value="opcion9">Facultad de Artes</option>
+            <option value="opcion10">Otro</option>
+        </select>
+        
+        <label>¿Qué turno prefieres?</label>
+        <input type="radio" name="turno" value="turno1"> Turno Mañana
+        <input type="radio" name="turno" value="turno2"> Turno Tarde
+        <input type="radio" name="turno" value="turno3"> Turno Mixto
+        
+        <label>¿Cuál es tu nivel de educación?</label>
+        <input type="checkbox" name="nivel" value="nivel1"> Primario Completo
+        <input type="checkbox" name="nivel" value="nivel2"> Secundario Completo
+        <input type="checkbox" name="nivel" value="nivel3"> Terciario
+        
+        <label for="comments">Comentarios adicionales:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+</body>
+</html>

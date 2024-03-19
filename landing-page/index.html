@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de producto</title>
+    <link rel="stylesheet" href="styles.css">
+<body>
+
+  <header id="header">
+    <img id="header-img" src="https://images.squarespace-cdn.com/content/v1/575174bab654f9980cdd23c4/1594074473372-R1DCBU3DPPHUNHWAER73/Header_Logo_Guitar.png" alt="Logo">
+    <h1 class="header-text">Guitarras Profesionales</h1>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#caracteristicas">Características</a>
+            <a class="nav-link" href="#muestra">Muestra</a>
+            <a class="nav-link" href="#precio">Precio</a>
+        </nav>
+  </header>
+
+  <main id="main">
+    <h2>Calidad Profesional Garantizada</h2>
+    
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input id="email" type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+        <input id="submit" type="submit" value="Enviar">
+    </form>
+
+    <section id="caracteristicas">
+        <div class="div-caracteristicas">
+            <div class="div-left">
+                <img class="logo" src="https://static.thenounproject.com/png/154996-200.png" alt="Material">
+            </div>
+            <div class="div-right">
+                <h3>Material Premium</h3>
+                <p>Las guitarras de nuestra colección están hechas con material premium cuidadosamente seleccionado. Cada detalle, desde la madera hasta los componentes, se elige con precisión para ofrecer un sonido excepcional y una durabilidad incomparable.</p>
+            </div>
+        </div>
+        <div>
+            <div class="div-left">
+                <img class="logo" src="https://cdn.icon-icons.com/icons2/1369/PNG/512/-local-shipping_90041.png" alt="Envío">
+            </div>
+            <div class="div-right">
+                <h3>Envíos Rapidos</h3>
+                <p>Nuestros envíos rápidos garantizan que pronto tendrás tu nueva guitarra en tus manos. Entendemos la emoción de recibir un instrumento nuevo, y nos esforzamos por entregarlo de manera ágil y segura.</p>
+            </div>
+        </div>
+        <div>
+            <div class="div-left">
+                <img class="logo" src="https://cdn-icons-png.flaticon.com/512/310/310831.png" alt="Calidad">
+            </div>
+            <div class="div-right">
+                <h3>Calidad Asegurada</h3>
+                <p>En nuestra búsqueda de la perfección musical, la calidad asegurada es nuestro compromiso inquebrantable. Cada guitarra que sale de nuestras manos representa el resultado de años de artesanía y pasión.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="muestra">
+        <video id="video" src=" " controls></video>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tQGBf40ADCg?si=M5UyCoLPdYR7nRQJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+    </section>
+
+    <section id="precio">
+
+    <div class="tarjeta">
+        <img src="https://musicopolix.com/blog/wp-content/uploads/2022/02/que-es-mas-facil-guitarra-clasica-o-acustica-portada.jpg" alt="Guitarra Clásica" class="img-tarjeta">
+        <h3>Guitarra Clásica</h3>
+        <p>Precio: $500</p>
+        <p>Descripción: Una guitarra clásica con un sonido cálido y suave, ideal para músicos acústicos.</p>
+        <button type="button">Seleccionar</button>
+    </div>
+
+    <div class="tarjeta">
+        <img src="https://rvb-img.reverb.com/image/upload/s--59Si11hy--/f_auto,t_large/v1650546017/ax8uetco3a72tubfal9s.jpg" alt="Guitarra Eléctrica" class="img-tarjeta">
+        <h3>Guitarra Eléctrica</h3>
+        <p>Precio: $800</p>
+        <p>Descripción: Una guitarra eléctrica versátil con un sonido potente, perfecta para rock y blues.</p>
+        <button type="button">Seleccionar</button>
+    </div>
+
+    <div class="tarjeta">
+        <img src="https://www.ibanez.com/common/product_artist_file/file/pc_main_electric_basses_us_sp.jpg" alt="Bajo Eléctrico" class="img-tarjeta">
+        <h3>Bajo Eléctrico</h3>
+        <p>Precio: $700</p>
+        <p>Descripción: Bajo eléctrico de cuatro cuerdas para sonidos potentes en rock, funk y jazz.</p>
+        <button type="button">Seleccionar</button>
+    </div>
+
+    </section>
+
+  </main>
+
+  <footer id="footer">
+    <nav>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <p>&copy; <span id="year">2023</span>, <span id="marca">Guitarras Profesionales</span></p>
+  </footer>
+
+</body>
+</html>

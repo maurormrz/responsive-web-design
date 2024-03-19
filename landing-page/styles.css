@@ -1,0 +1,196 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: lightgray;
+  border-bottom: 1px solid gray;
+  font-family: Tahoma, sans-serif;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#header-img {
+  max-height: 40px;
+  margin-right: 2vh;
+}
+
+.header-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+#main {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 70px; 
+  align-items: center;
+}
+
+#main h2 {
+  font-size: 28px; 
+  margin: 20px 0;
+}
+
+#form {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#email {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#submit {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#form p {
+  margin: 10px 0;
+}
+
+#caracteristicas {
+  padding: 10vh 20vh 10vh 20vh;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  margin: 10px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  max-width: 100px;
+  margin: 20px 0;
+}
+
+section h3 {
+  font-size: 20px;
+}
+
+section p {
+  margin: 10px 0;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  margin: 20px 0;
+}
+
+#video {
+  display: none;
+}
+
+#precio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.tarjeta .img-tarjeta {
+  width: 80%;
+  height: auto; 
+  border-radius: 3px;
+}
+
+.tarjeta h3 {
+  font-size: 20px;
+}
+
+.tarjeta p {
+  margin: 10px 0;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+#footer ul li {
+  margin-right: 20px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#year {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+  #nav-bar {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  #header-img {
+    margin-right: 2vh;
+  }
+
+  #caracteristicas {
+  padding: 10vh 10vh 10vh 10vh;
+  }
+}

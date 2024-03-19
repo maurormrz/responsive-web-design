@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Documentación Técnica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Fundamentos HTML</header>
+        <a class="nav-link" href="#Introducción">Introducción</a>
+        <a class="nav-link" href="#Hola_Mundo">Hola Mundo</a>
+        <a class="nav-link" href="#Etiquetas_de_Texto">Etiquetas de Texto</a>
+        <a class="nav-link" href="#Listas">Listas</a>
+        <a class="nav-link" href="#Enlaces">Enlaces</a>
+        <a class="nav-link" href="#Imágenes">Imágenes</a>
+        <a class="nav-link" href="#Tablas">Tablas</a>
+        <a class="nav-link" href="#Formularios">Formularios</a>
+        <a class="nav-link" href="#Multimedia">Multimedia</a>
+        <a class="nav-link" href="#Estructura_Avanzada">Estructura Avanzada</a>
+    </nav>
+    <main id="main-doc">
+        <section id="Introducción" class="main-section">
+            <header>Introducción</header>
+            <p>
+                <strong>Concepto:</strong> HTML (HyperText Markup Language) es un lenguaje de marcado utilizado para crear páginas web. Define la estructura y el contenido de una página, utilizando etiquetas y elementos para organizar la información.
+                <br>
+                <strong>Sintaxis:</strong> Las etiquetas HTML se componen de un nombre encerrado entre corchetes angulares (&lt;&gt;) y pueden tener atributos que proporcionan información adicional.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Título de la Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+        <section id="Hola_Mundo" class="main-section">
+            <header>Hola Mundo</header>
+            <p>
+                <strong>Concepto:</strong> En HTML, un "Hola Mundo" se crea mediante una estructura HTML básica que incluye la declaración de tipo de documento, el elemento &lt;html&gt;, &lt;head&gt; y &lt;body&gt;.
+                <br>
+                <strong>Sintaxis:</strong> Una página HTML comienza con &lt;!DOCTYPE&gt;, seguido de &lt;html&gt;, &lt;head&gt;, y &lt;body&gt;.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Hola Mundo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hola Mundo&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+        <section id="Etiquetas_de_Texto" class="main-section">
+            <header>Etiquetas de Texto</header>
+            <p>
+                <strong>Concepto:</strong> Las etiquetas de texto se utilizan para dar formato y estructura al contenido textual de una página web. Esto incluye etiquetas de encabezado, párrafos, etiquetas de formato, saltos de línea y comentarios en HTML.
+                <br>
+                <strong>Sintaxis:</strong> Las etiquetas de texto incluyen encabezados (&lt;h1&gt;, &lt;h2&gt;), párrafos (&lt;p&gt;), etiquetas de formato (&lt;strong&gt;, &lt;em&gt;, &lt;u&gt;), saltos de línea (&lt;br&gt;) y comentarios (&lt;!-- --&gt;).
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;h1&gt;Título de nivel 1&lt;/h1&gt;
+&lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt;
+&lt;em&gt;Texto en cursiva&lt;/em&gt;
+&lt;strong&gt;Texto en negrita&lt;/strong&gt;
+&lt;br&gt; * Salto de línea
+&lt;!-- Este es un comentario --&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+        <section id="Listas" class="main-section">
+            <header>Listas</header>
+            <p>
+                <strong>Concepto:</strong> Las listas se utilizan para organizar elementos en una secuencia ordenada o desordenada. Puedes utilizar listas ordenadas, listas desordenadas y listas de definición.
+                <br>
+                <strong>Sintaxis:</strong> Las listas ordenadas usan &lt;ol&gt; y &lt;li&gt;, las listas desordenadas usan &lt;ul&gt; y &lt;li&gt;, y las listas de definición utilizan &lt;dl&gt;, &lt;dt&gt;, y &lt;dd&gt;.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;h2&gt;Listas ordenadas&lt;/h2&gt;
+&lt;ol&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+    &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Listas desordenadas&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;Elemento A&lt;/li&gt;
+    &lt;li&gt;Elemento B&lt;/li&gt;
+    &lt;li&gt;Elemento C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Listas de definición&lt;/h2&gt;
+&lt;dl&gt;
+    &lt;dt&gt;Término 1&lt;/dt&gt;
+    &lt;dd&gt;Definición 1&lt;/dd&gt;
+    &lt;dt&gt;Término 2&lt;/dt&gt;
+    &lt;dd&gt;Definición 2&lt;/dd&gt;
+&lt;/dl&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+        <section id="Enlaces" class="main-section">
+            <header>Enlaces</header>
+            <p>
+                <strong>Concepto:</strong> Los enlaces permiten a los usuarios navegar entre páginas web y recursos en línea. Utiliza la etiqueta &lt;a&gt; con el atributo &lt;href&gt; para crear enlaces.
+                <br>
+                <strong>Sintaxis:</strong> Utiliza la etiqueta &lt;a&gt; con el atributo &lt;href&gt; para crear enlaces.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;a href="https://www.ejemplo.com"&gt;Enlace a Ejemplo&lt;/a&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+        <section id="Imágenes" class="main-section">
+            <header>Imágenes</header>
+            <p>
+                <strong>Concepto:</strong> Las imágenes se utilizan para mostrar gráficos y fotografías en una página web. Utiliza la etiqueta &lt;img&gt; con los atributos &lt;src&gt; para especificar la ruta de la imagen y &lt;alt&gt; para proporcionar un texto alternativo.
+                <br>
+                <strong>Sintaxis:</strong> Utiliza la etiqueta &lt;img&gt; con los atributos &lt;src&gt; y &lt;alt&gt;.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+        <section id="Tablas" class="main-section">
+            <header>Tablas</header>
+            <p>
+                <strong>Concepto:</strong> Las tablas permiten organizar datos en filas y columnas. Utiliza las etiquetas &lt;table&gt;, &lt;tr&gt; para filas, y &lt;td&gt; para celdas. Usa &lt;th&gt; para encabezados de tabla.
+                <br>
+                <strong>Sintaxis:</strong> Utiliza las etiquetas &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;, y &lt;th&gt;.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Encabezado 1&lt;/th&gt;
+        &lt;th&gt;Encabezado 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celda 1-1&lt;/td&gt;
+        &lt;td&gt;Celda 1-2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celda 2-1&lt;/td&gt;
+        &lt;td&gt;Celda 2-2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+        <section id="Formularios" class="main-section">
+            <header>Formularios</header>
+            <p>
+                <strong>Concepto:</strong> Los formularios permiten a los usuarios ingresar datos y enviarlos a un servidor. Utiliza la etiqueta &lt;form&gt; para crear un formulario y etiquetas como &lt;input&gt;, &lt;label&gt;, y &lt;button&gt; para elementos del formulario.
+                <br>
+                <strong>Sintaxis:</strong> Utiliza la etiqueta &lt;form&gt; y etiquetas relacionadas como &lt;input&gt;, &lt;label&gt;, y &lt;button&gt;.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;form action="/procesar" method="post"&gt;
+    &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+    &lt;input type="text" id="nombre" name="nombre"&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;
+    &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;
+                    </code>
+                </pre>
+            </p>
+           
+        </section>
+        <section id="Multimedia" class="main-section">
+            <header>Multimedia</header>
+            <p>
+                <strong>Concepto:</strong> HTML5 permite incrustar elementos multimedia como videos y audio directamente en una página web. Utiliza las etiquetas &lt;video&gt; y &lt;audio&gt; para incrustar multimedia.
+                <br>
+                <strong>Sintaxis:</strong> Utiliza las etiquetas &lt;video&gt; y &lt;audio&gt; para incrustar contenido multimedia.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;h2&gt;Video&lt;/h2&gt;
+&lt;video src="video.mp4" controls&gt;
+    
+&lt;/video&gt;
+
+&lt;h2&gt;Audio&lt;/h2&gt;
+&lt;audio src="audio.mp3" controls&gt;
+    
+&lt;/audio&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+        <section id="Estructura_Avanzada" class="main-section">
+            <header>Estructura Avanzada</header>
+            <p>
+                <strong>Concepto:</strong> HTML5 introduce elementos de estructura avanzada que ayudan a organizar mejor el contenido de una página. Puedes utilizar elementos como &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, &lt;section&gt;, y &lt;article&gt; para definir la estructura de una página.
+                <br>
+                <strong>Sintaxis:</strong> Utiliza los elementos de estructura avanzada como &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, &lt;section&gt;, y &lt;article&gt;.
+                <br>
+                <strong>Ejemplo de Código:</strong>
+                <pre>
+                    <code>
+&lt;header&gt;
+    &lt;h1&gt;Encabezado de la página&lt;/h1&gt;
+    &lt;nav&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;
+&lt;section&gt;
+    &lt;h2&gt;Sección principal&lt;/h2&gt;
+&lt;/section&gt;
+&lt;footer&gt;
+    &lt;p&gt;Pie de página&lt;/p&gt;
+&lt;/footer&gt;
+                    </code>
+                </pre>
+            </p>
+            
+        </section>
+    </main>
+</body>
+</html>
